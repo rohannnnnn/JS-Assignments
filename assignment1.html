@@ -1,0 +1,23 @@
+<html>
+    <head>
+       <title>Assignment 1</title>
+    </head>
+    <body>
+
+        <script>
+            var date=new Date();
+            var day=date.getDay();
+            var weekday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+            document.write("Today is: "+weekday[day]+"<br/>");
+
+            var hrs=date.getHours();
+            var apm= hrs >= 12 ? 'PM' : 'AM';
+            hrs = hrs % 12;
+            hrs = hrs ? hrs : 12;
+            var min = date.getMinutes();
+            min = min < 10 ? '0' + min : min;
+            var time = hrs+" "+apm+":"+min+":"+ date.getSeconds();
+            document.write("\t Current time is:"+time);
+        </script>
+    </body>
+</html>

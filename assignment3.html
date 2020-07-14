@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>assignment 3</title>
+    </head>
+    <script>
+        funcion currentDate()
+        {
+            var date= new Date();
+            var month = String(date.getMonth()+1).padStart(2,'0');
+            var day = String(date.getDate()).padStart(2,'0');
+            var year = date.getFullYear();
+            var display1 = day='/'+month+'/'+year;
+            var display2 = day+'-'+month+'-'+year;
+            var dsiplay3 = month+'/'+day+'/'+year;
+            var display4 = month+'-'+day+'-'+year;
+            document.write("<br/>"+display1+"<br/>"+display2+"<br/>"+display3+"<br/>"+display4+"<br/>")
+        }
+    </script>
+    <body>
+        <h2>click to get dat and time in myltiple format</h2>
+        <button onclick="currentDate()">Current Date</button>
+    </body>
+</html>

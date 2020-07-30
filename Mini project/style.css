@@ -1,0 +1,26 @@
+.content
+{
+background: rgba(44,62,80,0.7);
+padding: 60px;
+width: 550px;
+margin: auto;
+margin-top: 80px;
+height: 240px;
+margin-left: 180x;
+}
+
+.button1
+{
+background-color: #A9A9A9;
+border: none;
+color:white;
+padding: 10px 20px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:18px;
+border-radius: 15px;
+position:center;
+font-weight: bold;
+outline: 0;
+}
